@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online NCERT Notes and Coding Education</title>
+    <style>
+        :root {
+            --primary: #3498db;
+            --secondary: #2ecc71;
+            --dark: #2c3e50;
+            --light: #ecf0f1;
+            --accent: #e74c3c;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        nav {
+            background-color: white;
+            padding: 1rem;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+        
+        ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            gap: 2rem;
+        }
+        
+        li a {
+            text-decoration: none;
+            color: var(--dark);
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+        
+        li a:hover {
+            background-color: var(--primary);
+            color: white;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        
+        .welcome-card {
+            background-color: white;
+            border-radius: 8px;
+            padding: 2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            margin-bottom: 2rem;
+            border-left: 4px solid var(--secondary);
+        }
+        
+        .welcome-card p {
+            margin-bottom: 1rem;
+            color: #555;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        
+        .feature-card {
+            background-color: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .feature-card h3 {
+            color: var(--primary);
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+        
+        .feature-card p {
+            color: #666;
+        }
+        
+        footer {
+            background-color: var(--dark);
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+        
+        @media (max-width: 768px) {
+            ul {
+                flex-direction: column;
+                align-items: center;
+                gap: 0.5rem;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Online NCERT Notes & Coding Education</h1>
+            <p>Empowering students from Class 6 to 8 with quality resources</p>
+        </div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="https://it127.github.io/Notes-Home-Page/">NCERT Notes</a></li>
+            <li><a href="https://it127.github.io/Coding-Home-Page/">Coding Education</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <div class="welcome-card">
+            <h2>Welcome to Our Learning Platform</h2>
+            <p>Dear Student,</p>
+            <p>Welcome to our online platform for NCERT-class 6 to 8 notes and coding education. We're thrilled to have you here and we hope that our resources will aid you in your educational journey.</p>
+            <p>Our website offers comprehensive notes for CBSE board NCERT classes 6 to 8. These notes are curated by experienced educators who understand the nuances of the curriculum and the challenges faced by the students.</p>
+            <p>In this digital age, coding has become an essential skill and we believe in equipping young minds with this skill set from an early age. Our coding tutorials start from the basics, making it easy for beginners to get started.</p>
+            <p>Happy Learning!</p>
+            <p><strong>Best Regards,<br>Online Notes and Coding Education Team</strong></p>
+        </div>
+        
+        <div class="features">
+            <div class="feature-card">
+                <h3>Comprehensive NCERT Notes</h3>
+                <p>Access well-structured notes for all subjects from Class 6 to 8, aligned with the CBSE curriculum and designed to help you understand concepts easily.</p>
+            </div>
+            
+            <div class="feature-card">
+                <h3>Beginner-Friendly Coding</h3>
+                <p>Start your coding journey with our easy-to-follow tutorials that begin with the basics and progress to advanced concepts at your own pace.</p>
+            </div>
+            
+            <div class="feature-card">
+                <h3>Quality Education for All</h3>
+                <p>We believe in making quality education accessible to every student, regardless of their background or location.</p>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>© 2025 Online NCERT Notes and Coding Education. All rights reserved.</p>
+    </footer>
+</body>
+</html>
